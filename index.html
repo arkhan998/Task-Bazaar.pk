@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskBazaar - اردو میں کماؤ</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Noto Nastaliq Urdu', serif; }
+    .dark-mode {
+      background-color: #1f2937;
+      color: #f9fafb;
+    }
+    .dark-mode .bg-white {
+      background-color: #374151;
+    }
+    .dark-mode .text-gray-800 {
+      color: #f9fafb;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-green-600 text-white text-center py-6">
+    <h1 class="text-3xl font-bold">TaskBazaar.pk</h1>
+    <p class="text-lg mt-2">اردو میں آن لائن کام حاصل کریں یا دیں!</p>
+    <button onclick="toggleDarkMode()" class="mt-4 bg-white text-green-700 px-4 py-1 rounded">ڈارک موڈ تبدیل کریں</button>
+  </header>  <main class="p-6 max-w-4xl mx-auto">
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4">ہمارے ٹاسکس</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h3 class="text-xl font-bold">CV رائٹنگ</h3>
+          <p class="mb-2">ایک سادہ اور پروفیشنل CV بنائیں</p>
+          <p class="font-bold">قیمت: 150 روپے</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h3 class="text-xl font-bold">سوشل میڈیا کیپشن</h3>
+          <p class="mb-2">اردو/انگلش کیپشن لکھنے کا آسان کام</p>
+          <p class="font-bold">قیمت: 100 روپے</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h3 class="text-xl font-bold">اردو ترجمہ</h3>
+          <p class="mb-2">انگلش مواد کا اردو میں ترجمہ</p>
+          <p class="font-bold">قیمت: 200 روپے</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h3 class="text-xl font-bold">ڈیٹا انٹری</h3>
+          <p class="mb-2">سادہ فارم بھرنے کا کام</p>
+          <p class="font-bold">قیمت: 120 روپے</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h3 class="text-xl font-bold">گرافکس ڈیزائننگ</h3>
+          <p class="mb-2">لوگو، پوسٹ یا بینر ڈیزائننگ</p>
+          <p class="font-bold">قیمت: 250-500 روپے</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <h3 class="text-xl font-bold">ویڈیو ایڈیٹنگ</h3>
+          <p class="mb-2">یوٹیوب شارٹس یا انسٹاگرام ریلز</p>
+          <p class="font-bold">قیمت: 300-800 روپے</p>
+        </div>
+      </div>
+    </section><section class="mb-10">
+  <h2 class="text-2xl font-bold mb-4">کام سبمٹ کریں</h2>
+  <form class="bg-white p-6 rounded-lg shadow space-y-4">
+    <input type="text" placeholder="آپ کا نام" class="w-full border border-gray-300 p-2 rounded">
+    <input type="text" placeholder="فون نمبر" class="w-full border border-gray-300 p-2 rounded">
+    <select class="w-full border border-gray-300 p-2 rounded">
+      <option>کام منتخب کریں</option>
+      <option>CV رائٹنگ</option>
+      <option>کیپشن رائٹنگ</option>
+      <option>اردو ترجمہ</option>
+      <option>ڈیٹا انٹری</option>
+      <option>گرافکس ڈیزائننگ</option>
+      <option>ویڈیو ایڈیٹنگ</option>
+    </select>
+    <textarea placeholder="مزید تفصیل یا ہدایات" class="w-full border border-gray-300 p-2 rounded"></textarea>
+    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">ارسال کریں</button>
+    <a href="https://wa.me/923322964709" target="_blank" class="block text-center mt-4 bg-green-500 text-white py-2 rounded">WhatsApp پر آرڈر بھیجیں</a>
+  </form>
+</section>
+
+<section>
+  <h2 class="text-2xl font-bold mb-4">ادائیگی کی معلومات</h2>
+  <div class="bg-white p-6 rounded-lg shadow">
+    <p class="mb-2">آپ ہماری سروس کے لیے ادائیگی مندرجہ ذیل ذرائع سے کر سکتے ہیں:</p>
+    <ul class="list-disc pr-6">
+      <li>EasyPaisa: 03306144630</li>
+      <li>JazzCash: 03356727704</li>
+      <li>NayaPay: 03322964709</li>
+      <li>اکاؤنٹ ہولڈر کا نام: Atta Ur Rehman</li>
+      <li>ای میل: akk728492@gmail.com</li>
+      <li>WhatsApp: <a class="text-green-600 underline" href="https://wa.me/923322964709">03322964709 پر پیغام بھیجیں</a></li>
+    </ul>
+  </div>
+</section>
+
+  </main>  <footer class="text-center py-6 bg-gray-800 text-white mt-10">
+    <p>© 2025 TaskBazaar.pk - تمام حقوق محفوظ ہیں</p>
+  </footer>  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script></body>
+</html>
